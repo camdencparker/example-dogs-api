@@ -4,6 +4,6 @@ class DogsController < ApplicationController
     if dog.save
       render json: dog 
     else
-      render json: {errors: recipe.errors.full_messages}, status: :unprocessable_entity
+      render json: {errors: dog.errors.full_messages}, status: :unprocessable_entity
   end
 end
