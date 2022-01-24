@@ -1,0 +1,4 @@
+### Create
+POST "http://localhost3000/dogs"
+Content-Type: application/json
+Authorization: Bearer 
